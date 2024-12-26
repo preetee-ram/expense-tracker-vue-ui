@@ -1,7 +1,19 @@
-<script setup></script>
+<script setup>
+import "primeicons/primeicons.css";
+import Navbar from "./components/Navbar.vue";
+import Title from "./components/Title.vue";
+import HomeCards from "./components/HomeCards.vue";
+import ExpenseListings from "./components/ExpenseListings.vue";
+</script>
 
 <template>
-  <h1 class="text-2xl">Hi there</h1>
+  <Navbar />
+  <Title
+    title="Expense Tracker"
+    subtitle="Track your daily expenses and know yourself better!!"
+  />
+  <HomeCards />
+  <ExpenseListings :limit="3" :showButton="true" />
 </template>
 
 <style scoped></style>

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "category": "FOOD",
+    "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+    "date": "2024-11-09",
+    "amount": "7000",
+    "paymentMode": "DEBITCARD",
+    "user": {
+      "id": 1,
+      "username": "User1",
+      "password": "contact@teksolutions.com"
+    }
+  },
+  {
+    "id": 2,
+    "category": "TRANSPORT",
+    "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+    "date": "2024-11-23",
+    "amount": "80000",
+    "paymentMode": "DEBITCARD",
+    "user": {
+      "id": 1,
+      "username": "User1",
+      "password": "contact@teksolutions.com"
+    }
+  },
+  {
+    "id": 3,
+    "category": "UTILITIES",
+    "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+    "date": "2024-11-09",
+    "amount": "10000",
+    "paymentMode": "CASH",
+    "user": {
+      "id": 1,
+      "username": "User1",
+      "password": "contact@teksolutions.com"
+    }
+  },
+  {
+    "id": 4,
+    "category": "ENTERTAINMENT",
+    "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+    "date": "2024-11-03",
+    "amount": "2300",
+    "paymentMode": "CASH",
+    "user": {
+      "id": 2,
+      "username": "User2",
+      "password": "contact@teksolutions.com"
+    }
+  },
+  {
+    "id": 5,
+    "category": "MISCELLANEOUS",
+    "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+    "date": "2024-11-11",
+    "amount": "2500",
+    "paymentMode": "UPI",
+    "user": {
+      "id": 2,
+      "username": "User2",
+      "password": "contact@teksolutions.com"
+    }
+  },
+  {
+    "id": 6,
+    "category": "FOOD",
+    "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+    "date": "2024-12-01",
+    "amount": "5000",
+    "paymentMode": "UPI",
+    "user": {
+      "id": 2,
+      "username": "User2",
+      "password": "contact@teksolutions.com"
+    }
+  }
+]
