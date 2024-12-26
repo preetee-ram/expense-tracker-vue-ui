@@ -2,7 +2,7 @@
 import expenseData from "@/expenses.json";
 import { ref, defineProps } from "vue";
 import ExpenseListing from "./ExpenseListing.vue";
-
+import { RouterLink } from "vue-router";
 defineProps({
   limit: {
     type: Number,
@@ -33,10 +33,10 @@ const expenses = ref(expenseData);
   </section>
 
   <section v-if="showButton" class="m-auto max-w-lg my-10 px-6">
-    <a
-      href="/expenses"
+    <RouterLink
+      to="/expenses"
       class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
-      >View All Expenses</a
+      >View All Expenses</RouterLink
     >
   </section>
 </template>

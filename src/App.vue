@@ -1,19 +1,11 @@
 <script setup>
-import "primeicons/primeicons.css";
 import Navbar from "./components/Navbar.vue";
-import Title from "./components/Title.vue";
-import HomeCards from "./components/HomeCards.vue";
-import ExpenseListings from "./components/ExpenseListings.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
   <Navbar />
-  <Title
-    title="Expense Tracker"
-    subtitle="Track your daily expenses and know yourself better!!"
-  />
-  <HomeCards />
-  <ExpenseListings :limit="3" :showButton="true" />
+  <RouterView />
 </template>
 
 <style scoped></style>

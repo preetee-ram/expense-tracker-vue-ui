@@ -1,5 +1,6 @@
 <script setup>
 import Card from "./Card.vue";
+import { RouterLink } from "vue-router";
 </script>
 <template>
   <section class="py-4">
@@ -10,22 +11,22 @@ import Card from "./Card.vue";
           <p class="mt-2 mb-4">
             Browse your expenses list and know your spendings
           </p>
-          <a
-            href="expenses.html"
+          <RouterLink
+            to="/expenses"
             class="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
           >
             Browse Expenses
-          </a>
+          </RouterLink>
         </Card>
-        <Card bg="bg-green-100">
+        <Card bg="bg-blue-200">
           <h2 class="text-2xl font-bold">For System Admins</h2>
           <p class="mt-2 mb-4">Add a new user to the app</p>
-          <a
-            href="add-user.html"
-            class="inline-block bg-green-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
+          <RouterLink
+            to="/users/add"
+            class="inline-block bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
           >
             Add User
-          </a>
+          </RouterLink>
         </Card>
       </div>
     </div>
