@@ -23,7 +23,7 @@ import { RouterLink } from "vue-router";
           <p class="mt-2 mb-4">Add a new user to the app</p>
           <RouterLink
             to="/users/add"
-            class="inline-block bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
+            class="inline-block bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-blue-600"
           >
             Add User
           </RouterLink>
